@@ -5,6 +5,7 @@ type UserResponse = {
   avatar: string;
 }
 
+
 // O padrão do userResponse deve estar de acordo com o type criado!
 let userResponse = {} as UserResponse;
 userResponse.name;
@@ -24,3 +25,26 @@ let preencher: Crachar = {
 }
 
 console.log(preencher);
+
+
+// União de types
+type Time = {
+    nome: string,
+    cidade: string, 
+    idade: number
+}
+
+type Seleca = {
+    pais: string,
+    mascote?: string
+}
+
+type Junta = Time & Seleca;
+let res: Junta = {
+    nome: "Liverpool",
+    cidade: "Liverpool",
+    idade: 77,
+    pais: "Inglaterra"
+};
+
+console.log(res);
