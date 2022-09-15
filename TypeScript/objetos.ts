@@ -48,3 +48,14 @@ let res: Junta = {
 };
 
 console.log(res);
+
+
+// Criar tipagem com interface
+interface User {
+    id: number, 
+    name: string, 
+}
+
+function registerNewUser(newUser: User) {
+    newUser.name;
+}
