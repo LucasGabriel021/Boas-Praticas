@@ -1,3 +1,4 @@
+// Parte sobre type assertions
 type UserResponse = {
   id: number;
   name: string; 
