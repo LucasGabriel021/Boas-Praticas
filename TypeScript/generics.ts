@@ -9,7 +9,7 @@
  * V => Value
  */
 
-function useState<T extends string | number = number>() {
+function useState<T extends string | number = number>() { // Sinal Igual será caso não informado o tipo, o type number será prevalecido como padrão
     let state: T;
 
     function get() {
@@ -26,5 +26,5 @@ function useState<T extends string | number = number>() {
 let newState = useState<string>();
 newState.get();
 newState.set('Sam');
-newState.set(021);
+newState.set(021); // Erro
 newState.set('Saravia');
