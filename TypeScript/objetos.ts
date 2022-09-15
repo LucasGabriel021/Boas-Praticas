@@ -39,7 +39,7 @@ type Seleca = {
     mascote?: string
 }
 
-type Junta = Time & Seleca;
+type Junta = Time & Seleca; // Operador & faz a junção
 let res: Junta = {
     nome: "Liverpool",
     cidade: "Liverpool",
