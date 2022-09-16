@@ -1,5 +1,8 @@
-// Como podemos rodar isso em um arquivo .ts sem causar erros? 
+// let info = {};
+// info.id = 10;
+// info.name = "Lucas";
 
-// let employee = {};
-// employee.code = 10;
-// employee.name = "John";
+let info:{id: number, name: string} = {
+    id: 10,
+    name: 'Lucas'
+}
