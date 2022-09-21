@@ -2,3 +2,4 @@ https://oieduardorabelo.medium.com/typescript-entendendo-generics-por-completo-4
 https://www.w3schools.com/typescript/typescript_basic_generics.php // => Generics em TS
 https://ricardo-reis.medium.com/retornando-v%C3%A1rios-valores-de-uma-fun%C3%A7%C3%A3o-184f4ec671ab // => Retorno de vários valores em JS e TS
 https://www.facom.ufu.br/~bacala/POO/09-Classes%20Abstratas.pdf // => Classes e Métodos Abstratos
+https://www.facom.ufu.br/~fabiola/GGI030%20-%20Programa%E7%E3o%20Orientada%20%E0%20Objetos/Aula07.pdf // => introdução a classes e objetos
